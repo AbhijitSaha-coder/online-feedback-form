@@ -1,0 +1,68 @@
+/* Global box-sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Form styling */
+form {
+    width: 400px;
+    margin: 50px auto; /* center the form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #eafaf1; /* soft background color */
+}
+
+/* Heading */
+form h1 {
+    text-align: center;
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs and textarea */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Textarea specific */
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* remove underline */
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #155d27; /* slightly darker on hover */
+}
